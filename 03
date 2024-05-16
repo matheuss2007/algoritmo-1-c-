@@ -1,0 +1,15 @@
+2;
+ 
+ 
+ printf("escreva um valor1 ");
+ scanf("%f", &valor1);
+ printf("escreva um valor2");
+ scanf("%f" , &valor2);
+ 	
+
+ 
+ float total = valor1 - valor2;   
+ printf(" a diferença e: %f", total);
+ 
+ return 0;
+} 
