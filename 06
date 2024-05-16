@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main (){
+ 
+ float peso;
+ float gramas;
+ 
+ printf("escreva um valor1 ");
+ scanf("%f", &peso);
+ 
+ 
+ gramas = peso*1000	;
+
+    
+ printf(" o peso em gramas sera  : %f", gramas);
+ 
+ return 0;
+} 
+
+  
