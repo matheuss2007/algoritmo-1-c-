@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main (){
+ 
+ float nota1;
+ float nota2;
+ float nota3;
+ float nota4;
+ 
+ printf("escreva uma nota1 ");
+ scanf("%f", &nota1);
+ printf("escreva uma nota2");
+ scanf("%f" , &nota2);
+ printf("escreva uma nota3");
+ scanf("%f" , &nota3);
+ printf("escreva uma nota4 ");
+ scanf("%f" , &nota4);	
+
+ 
+ float total = nota1 + nota2 + nota3 + nota4;
+ printf("nota total: %f", total);
+ return 0;
+}
