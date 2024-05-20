@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main (){
+	
+
+	float raio, diametro, comprimento, area;
+	
+	printf ("digite uma valor do raio da circunfência:");
+	scanf("%f", &raio);
+	
+    diametro = 2 * raio;
+	
+	comprimento = 2 * PI * raio;
+	
+	area = PI * raio * raio;
+	
+	printf("diâmetro: %.2f\n", diametro);
+	printf("comprimento: %.2f\n" , comprimento);
+	printf("área: %.2f\n", area);
+	
+	return 0;
+} 
